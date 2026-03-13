@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A sleek, high-performance driving theory practice application built with React." />
+  <meta name="web_author" content="Bilal Türkmen" />
+  <title>Theory Mastery | Driving Practice</title>
+</head>
+
+<body class="preload">
+  <script>
+    (function () {
+      try {
+        const savedTheme = localStorage.getItem('theme');
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = savedTheme || (supportDarkMode ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {
+        console.error("Theme initialization failed", e);
+      }
+    })();
+    window.addEventListener("load", () => {
+      document.body.classList.remove("preload");
+    });
+  </script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
