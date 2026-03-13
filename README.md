@@ -7,9 +7,9 @@ high-performance driving theory practice application built with React. Designed 
 ## 👍 My Challenges:
 
 - **State Management for Large Quizzes:** Managed a complex state (answers, bookmarks, timers) across multiple views using the `useReducer` and `useMemo` hooks to ensure the app remained performant even with 50+ questions.
+- Speed up your practice with built-in keyboard shortcuts.
 - A detailed results viewing and review page has been created.
-- I focused on creating a clean and aesthetically pleasing layout.
-- Designed the application to be responsive across different screen sizes.
+- Refactored the monolithic architecture into a modular component-based structure to improve maintainability and follow React best practices.
 
 ![](./public/screenshot-d.png)
 
