@@ -8,3 +8,4 @@ export { default as FeedbackCard } from "./FeedbackCard";
 export { default as FilterBar } from "./FilterBar";
 export { default as ResultSummary } from "./ResultSummary";
 export { default as SVGLogo } from "./SVGLogo";
+export { default as FooterAttribution } from "./FooterAttribution";
