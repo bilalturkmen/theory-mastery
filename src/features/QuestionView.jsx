@@ -82,7 +82,7 @@ export default function QuestionView() {
             variant="secondary"
             onClick={() => dispatch({ type: "RETURN_TO_RESULTS" })}
           >
-            Results
+            Back Results
           </Button>
         )}
         <Button
