@@ -1,6 +1,6 @@
 # 🚗 Theory Mastery
 
-https://react-rentals.netlify.app/
+https://theory-mastery.netlify.app/
 
 high-performance driving theory practice application built with React. Designed to simulate the real exam environment with added tools for deep review and progress tracking.
 
