@@ -1,4 +1,4 @@
-# 🚗 Theory Mastery
+# Theory Mastery
 
 https://theory-mastery.netlify.app/
 
